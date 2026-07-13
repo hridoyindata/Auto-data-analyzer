@@ -63,20 +63,6 @@ The app opens in your browser at http://localhost:8501. Press Ctrl+C in the term
 6. Insights tab gives written findings pulled from the data.
 7. Download tab saves the cleaned file as a CSV.
 
-## Push to GitHub
-
-Create an empty repo on GitHub first (no README, no .gitignore). Then run these inside the project folder:
-
-```
-git init
-git add .
-git commit -m "Add auto data analyzer app"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/auto-data-analyzer.git
-git push -u origin main
-```
-
-Replace YOUR_USERNAME with your GitHub username.
 
 ## Built with
 
